@@ -8,8 +8,8 @@ DHT dht(DHTPIN, DHTTYPE);
 
 
 
-const char* ssid = "telenet-32924";
-const char* password = "YmutaKcebv8p";
+const char* ssid = "YOUR WIFI SSID";
+const char* password = "YOUR WIFI PASSWD";
 const char* mqttServer = "192.168.0.244 ";
 const int mqttPort = 1883;
 const char* mqttUser = "Jeff";
