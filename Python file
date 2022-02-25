@@ -3,7 +3,7 @@ import random
 import time
 from paho.mqtt import client as mqtt_client
 
-broker = "192.168.0.244"
+broker = "RASPBERRY PI IP"
 port = 1883
 topic_temp = "home/esp32/temperatuur"
 topic_hum = "home/esp32/humidity"
